@@ -1,0 +1,12 @@
+# Secrets never go in the repo
+.env
+.env.*
+!.env.example
+
+# Challenge data stays local: keep the PostFinance sample CSVs in data/samples/
+data/
+
+# Added when the stack is chosen
+node_modules/
+dist/
+.DS_Store
